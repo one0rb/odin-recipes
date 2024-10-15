@@ -1,0 +1,15 @@
+body {
+    background-color: hsl(60,27%,94%);
+    font-family: Garamond, serif;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    background-color: grey;
+    color: hsl(60,27%,94%);
+    text-align: center;
+}
+h3 {
+    background-color: white;
+}
