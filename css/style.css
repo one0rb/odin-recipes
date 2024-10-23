@@ -1,3 +1,4 @@
+
 body {
     background-color: hsl(60,27%,94%);
     font-family: Garamond, serif;
@@ -6,10 +7,26 @@ h1 {
     text-align: center;
 }
 h2 {
-    background-color: grey;
+    background-color: darkslategrey;
     color: hsl(60,27%,94%);
     text-align: center;
 }
 h3 {
     background-color: white;
+}
+.recipe-toc {
+    display: flex;
+    direction: row;
+    flex: 1 1 100px;
+    flex-wrap: wrap;
+}
+figure {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ol {
+    padding: 0 0 0 30px;
 }
